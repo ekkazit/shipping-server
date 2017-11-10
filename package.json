@@ -1,0 +1,28 @@
+{
+    "name": "shipping-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon -e html,js app.js"
+    },
+    "author": "Ekkasit Srisukha",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "cluster": "^0.7.7",
+        "cookie-parser": "^1.4.3",
+        "crypto": "^1.0.1",
+        "dotenv": "^4.0.0",
+        "express": "^4.16.2",
+        "jsonwebtoken": "^8.1.0",
+        "line-messaging": "^1.1.8",
+        "moment": "^2.19.1",
+        "mysql": "^2.15.0",
+        "node-gcm": "^0.14.9",
+        "path": "^0.12.7",
+        "promise": "^8.0.1",
+        "q": "^1.5.1"
+    }
+}
